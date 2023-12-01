@@ -1,9 +1,9 @@
 package com.leegahyeon.kotlin_calculator
 
 fun main () {
-    var num1 = readLine()!!.toDouble()
-    var operator = readLine()!!.toString()
-    var num2 = readLine()!!.toDouble()
+    val num1 = readLine()!!.toDouble()
+    val operator = readLine()!!.toString()
+    val num2 = readLine()!!.toDouble()
 
     val plus = num1 + num2
     val minus = num1 - num2
@@ -17,7 +17,7 @@ fun main () {
         "*" -> println("${multiply}")
         "/" -> println("${devide}")
         "%" -> println("${remain}")
-        else -> println("잘못된 연산자입니다.")
+        else -> println("잘못 입력하였습니다.")
     }
 
 }
